@@ -12,7 +12,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 from sklearn.metrics import RocCurveDisplay as plot_roc_curve
 from sklearn.metrics import PrecisionRecallDisplay as plot_precision_recall_curve
-
+import os
 
 def main():
     st.title("Binary Classification WebApp")    
@@ -23,7 +23,8 @@ def main():
 
     @st.cache(persist = True)
     def load_data():
-        data = pd.read_csv('mushrooms.csv')
+        data_path = os.path.join(os.path.dirname(__file__), "mushrooms.csv")
+        data = pd.read_csv(data_path)
         label = LabelEncoder()
 
         for col in data.columns:
