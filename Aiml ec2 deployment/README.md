@@ -5,7 +5,7 @@ This document outlines the steps followed to deploy a machine learning applicati
 
 ## Prerequisites
 - AWS EC2 instance (Amazon Linux 2)
-- SSH key pair (`vs-kp-1.pem`)
+- SSH key pair (`aiml-key.pem`)
 - Docker installed on the EC2 instance
 - Application files:
   - `Dockerfile`
@@ -33,12 +33,12 @@ mkdir downloads
 
 ### 4. Set Permissions for SSH Key
 ```bash
-chmod 600 vs-kp-1.pem
+chmod 600 aiml-key.pem
 ```
 
 ### 5. Transfer Application Files to EC2
 ```bash
-scp -i vs-kp-1.pem Dockerfile app.py requirements.txt mushrooms.csv ec2-user@13.60.105.49:/home/ec2-user/downloads
+scp -i ainl-key.pem Dockerfile app.py requirements.txt mushrooms.csv ec2-user@13.60.105.49:/home/ec2-user/downloads
 ```
 
 ### 6. Build Docker Image
