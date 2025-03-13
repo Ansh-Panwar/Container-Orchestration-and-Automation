@@ -39,14 +39,14 @@ To demonstrate, we create a **custom bridge network** called **ansh-bridge** and
 ## 🔧 Step 1: Creating a Custom Bridge Network
 
 ```sh
-docker network create --driver bridge --subnet 172.20.0.0/16 --ip-range 172.20.240.0/20 ansh-bridge
+docker network create --driver bridge --subnet 192.168.1.0/24 --ip-range 192.168.1.128/25 ansh-bridge
 ```
 
 ### 🔍 Explanation:
 
 - `--driver bridge` → Uses the default bridge network mode.
-- `--subnet 172.20.0.0/16` → Defines the network’s IP range.
-- `--ip-range 172.20.240.0/20` → Allocates IPs dynamically.
+- `--subnet 192.168.1.0/24` → Defines the network’s IP range.
+- `--ip-range 192.168.1.128/25` → Allocates IPs dynamically.
 
 ---
 
@@ -73,8 +73,8 @@ docker network inspect ansh-bridge
 #### Expected Output:
 
 ```plaintext
- ansh-database: 172.20.240.1
- ansh-server-A: 172.20.240.2
+ ansh-database: 192.168.1.129
+ ansh-server-A: 192.168.1.130
 ```
 
 ---
@@ -84,13 +84,13 @@ docker network inspect ansh-bridge
 ### Ping from **ansh-database** to **ansh-server-A**
 
 ```sh
-docker exec -it ansh-database ping 172.20.240.2
+docker exec -it ansh-database ping 192.168.1.130
 ```
 
 ### Ping from **ansh-server-A** to **ansh-database**
 
 ```sh
-docker exec -it ansh-server-A ping 172.20.240.1
+docker exec -it ansh-server-A ping 192.168.1.129
 ```
 
 ✅ **Expected Outcome:** Both containers should successfully ping each other.
@@ -111,7 +111,7 @@ docker run -itd --name=ansh-server-B busybox
 docker inspect -format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' ansh-server-B
 ```
 
-*(Example IP: `172.17.0.2`)*
+*(Example IP: `172.18.0.2`)*
 
 ---
 
@@ -120,7 +120,7 @@ docker inspect -format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}
 ### Ping from **ansh-database** to **ansh-server-B**:
 
 ```sh
-docker exec -it ansh-database ping 172.17.0.2
+docker exec -it ansh-database ping 172.18.0.2
 ```
 
 🚨 **Expected Outcome:** The ping should fail, as they are on different networks.
