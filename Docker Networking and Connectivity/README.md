@@ -1,4 +1,4 @@
-# 🚀 Docker Bridge: Balancing Isolation & Connectivity
+# 🚀 Docker Networking & Connectivity
 
 ## 📌 Objective
 
