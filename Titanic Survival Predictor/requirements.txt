@@ -1,5 +1,0 @@
---force-reinstall
-streamlit
-pandas
-scikit-learn
-joblib
