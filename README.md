@@ -1,74 +1,49 @@
-# Container-Orchestration-and-Automation
-This repository contains different applications made using docker in python programming language.
 # Container Orchestration and Automation
 
 ## Overview
-This repository contains various projects related to container orchestration, Docker, Streamlit applications, database integrations, and Kubernetes configurations. The projects demonstrate how to build and deploy machine learning models, database-backed applications, and microservices using Docker and related technologies.
+This repository contains various projects related to container orchestration, automation, and AI/ML deployment using Docker, Kubernetes, Streamlit, and cloud-based solutions.
 
 ## Projects
-### 1. **Titanic Survival Predictor**
-   - Predicts Titanic survival using a trained machine learning model.
-   - **Tech Stack:** Streamlit, Docker, Python, Scikit-Learn
-   - **Files:**
-     - `Dockerfile` - Defines the container environment.
-     - `main.py` - Streamlit app for predictions.
-     - `titanic_model.pkl` - Pre-trained model.
-     - `requirements.txt` - Dependencies.
 
-### 2. **Machine Learning App**
-   - A Streamlit-based ML application for classification using a dataset.
-   - **Tech Stack:** Python, Streamlit, Docker
-   - **Files:**
-     - `app.py` - Main application logic.
-     - `mushrooms.csv` - Sample dataset.
-     - `docker-compose.yml` - Container setup.
+### 1. Aiml EC2 Deployment
+This project focuses on deploying AI/ML models on AWS EC2 instances. It includes setting up an environment, containerizing models, and deploying them using cloud infrastructure.
 
-### 3. **SQL with Streamlit**
-   - Demonstrates database integration with a Streamlit frontend.
-   - **Tech Stack:** Python, Streamlit, PostgreSQL, Docker
-   - **Files:**
-     - `app.py` - Streamlit frontend.
-     - `requirements.txt` - Python dependencies.
-     - `docker-compose.yml` - Database and application containerization.
+### 2. Docker Networking and Connectivity
+A comprehensive guide on how Docker networking works. It includes different networking modes like bridge, host, and overlay, and practical implementations.
 
-### 4. **MySQL Integration**
-   - A project demonstrating MySQL database setup in Docker.
-   - **Files:**
-     - `database_students.sql` - Sample database schema.
-     - `Dockerfile` - MySQL setup in a container.
+### 3. Docker Volumes
+This project explores persistent storage management in Docker using volumes. It demonstrates how to create, mount, and manage volumes for data persistence.
 
-### 5. **Minikube with Docker on Linux**
-   - A Kubernetes Minikube setup guide for containerized applications.
-   - Includes configuration files and setup instructions.
+### 4. Evidently AI
+A project that integrates Evidently AI for monitoring and evaluating machine learning models. It helps in tracking data drift and model performance over time.
 
-### 6. **Evidently AI Monitoring**
-   - Implements data monitoring using the Evidently AI library.
-   - **Files:**
-     - `app.py` - Streamlit dashboard for monitoring.
-     - `Dockerfile` - Container setup.
+### 5. Minikube with Docker on Linux
+A step-by-step guide to setting up Minikube on Linux using Docker as a driver. It includes Kubernetes deployment basics and workload management.
 
-## Setup & Deployment
-### Prerequisites
-- Docker & Docker Compose installed
-- Python 3.7+
-- Streamlit installed
+### 6. MySQL
+A database project that sets up a MySQL server, demonstrates CRUD operations, and integrates with applications using SQL queries.
 
-### Running a Project
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-repo/Container-Orchestration-and-Automation.git
-   cd Container-Orchestration-and-Automation
-   ```
-2. Navigate to a specific project folder (e.g., `Titanic_Survival_Predictor`).
-3. Build and run the container:
-   ```sh
-   docker-compose up --build
-   ```
-4. Access the application at `http://localhost:8501`
+### 7. Titanic Survival Predictor
+A machine learning model that predicts passenger survival on the Titanic. The project includes data preprocessing, model training, and deployment using Streamlit.
 
+### 8. Hello World
+A simple "Hello World" project, likely a test setup for new tools or frameworks.
 
+### 9. Machine Learning App
+A generic ML application that may include various models, data pipelines, and deployment techniques.
+
+### 10. SQL with Streamlit
+An interactive web application built with Streamlit that connects to an SQL database, allowing users to query and visualize data.
+
+### 11. Streamlit App
+A web-based application built using Streamlit. It serves as an example of deploying and running interactive web applications.
+
+## Getting Started
+To run any of the projects, ensure you have Docker and Python installed. Follow the specific instructions in each project's folder for setup and execution.
 
 ## Contributing
-Contributions are welcome! Feel free to submit issues or pull requests.
+Contributions are welcome! Feel free to submit issues or pull requests to improve the projects.
+
+
 
 
