@@ -15,7 +15,7 @@ st.markdown(
     """
     <style>
     body {
-        background: linear-gradient(to right, #6a11cb, #2575fc);
+        background: linear-gradient(to right, #2c3e50, #4ca1af);
         color: white;
     }
     .title {
@@ -25,9 +25,10 @@ st.markdown(
         color: #ffffff;
     }
     .subtitle {
-        font-size: 20px;
+        font-size: 22px;
         text-align: center;
-        color: #e0e0e0;
+        color: #3498db; /* Blue color for text */
+        font-weight: bold;
         margin-bottom: 40px;
     }
     .form-container {
@@ -56,7 +57,7 @@ st.markdown(
 
 # Page Title & Subtitle
 st.markdown('<div class="title">🚢 Titanic Survival Prediction</div>', unsafe_allow_html=True)
-st.markdown('<div class="subtitle">Will you survive the Titanic disaster? Enter details below and find out!</div>', unsafe_allow_html=True)
+st.markdown('<div class="subtitle">Can you survive the Titanic disaster? Enter details below and find out!</div>', unsafe_allow_html=True)
 
 # Input Fields (Styled as a Container)
 st.markdown('<div class="form-container">', unsafe_allow_html=True)
@@ -95,3 +96,4 @@ if st.button("🔮 Predict Survival"):
 
         except Exception as e:
             st.error(f"⚠️ Prediction Error: {e}")
+
