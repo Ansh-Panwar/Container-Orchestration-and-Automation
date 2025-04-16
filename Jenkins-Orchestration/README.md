@@ -89,6 +89,9 @@ Complete the setup:
 
 Click **Save**
 
+![Screenshot 2025-04-02 170804](https://github.com/user-attachments/assets/bda26b62-0620-46b4-8200-45f2c178bdd8)
+![Screenshot 2025-04-02 185027](https://github.com/user-attachments/assets/3a3e6fc0-6492-4f78-80a7-7b351d438921)
+
 ### Step 3: Configure Docker Inside Jenkins
 
 Install Docker inside Jenkins container:
@@ -97,23 +100,37 @@ docker-compose exec jenkins bash -c "apt-get update && apt-get install -y docker
 docker-compose exec jenkins bash -c "service docker start"
 docker-compose exec jenkins docker --version
 ```
+![Screenshot 2025-04-02 185509](https://github.com/user-attachments/assets/eae23ce2-d629-4c0c-a62a-7c77cf53f1a8)
+![Screenshot 2025-04-02 185549](https://github.com/user-attachments/assets/4f4af70a-4e18-46c6-ba59-e2289466cd25)
+![Screenshot 2025-04-02 185638](https://github.com/user-attachments/assets/c833c8ce-e700-4140-8bef-0921681cfbec)
 
 Install required Docker plugins in Jenkins:
 - Docker Pipeline
 - Docker plugin
 - docker-build-step
+- 
+![Screenshot 2025-04-02 185851](https://github.com/user-attachments/assets/c9b1a349-6284-4a1d-84aa-8b3173b73b27)
+![Screenshot 2025-04-02 190119](https://github.com/user-attachments/assets/447d282b-e7eb-4999-adf5-751a6330b967)
+![Screenshot 2025-04-02 190212](https://github.com/user-attachments/assets/e91f7d3d-7b47-4f2d-9944-9a3e537a5b0d)
 
 Restart Jenkins:
 ```bash
 docker-compose restart jenkins
 ```
+![Screenshot 2025-04-02 190327](https://github.com/user-attachments/assets/96ae0671-5a33-43bc-ad48-b6d2a8fce765)
 
 ---
+![Screenshot 2025-04-02 190405](https://github.com/user-attachments/assets/404e0fa0-18f8-49f6-9535-88fab0f541ee)
+
 
 ## ▶️ Running the Pipeline
 
 1. Go to the pipeline project in Jenkins
 2. Click **"Build Now"**
+![Screenshot 2025-04-02 190919](https://github.com/user-attachments/assets/711869ef-5283-451d-9d06-61b3863ada3a)
+![Screenshot 2025-04-02 190928](https://github.com/user-attachments/assets/5c760bad-8549-4d44-bd2f-6843261255d1)
+![Screenshot 2025-04-02 190949](https://github.com/user-attachments/assets/84bd4d74-95f4-4866-93f3-10b5b1881f9a)
+
 3. After the build completes, download the executable from **Build Artifacts**
 
 ---
@@ -140,6 +157,7 @@ cd /mnt/c/Users/<your-user>/Downloads
 chmod +x add2vals
 ./add2vals 5 3
 ```
+![Screenshot 2025-04-02 192308](https://github.com/user-attachments/assets/dc8022f0-a37f-4cda-8074-c67e98050b41)
 
 ---
 
