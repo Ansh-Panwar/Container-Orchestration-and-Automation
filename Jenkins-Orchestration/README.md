@@ -1,7 +1,5 @@
 # 🧪 Simple Python Application with Jenkins CI/CD Pipeline
 
-![Jenkins Logo](https://www.jenkins.io/images/logos/jenkins/jenkins.png)
-
 ## 📌 Project Overview
 
 This project demonstrates a simple Python application integrated with a complete CI/CD pipeline using **Jenkins**, **Docker**, and **GitHub**.  
