@@ -62,6 +62,7 @@ Start Jenkins using Docker Compose:
 ```bash
 docker-compose up -d
 ```
+![image](https://github.com/user-attachments/assets/8bb2d13a-f674-4474-9a44-2287da9a10ba)
 
 Get the initial admin password:
 ```bash
