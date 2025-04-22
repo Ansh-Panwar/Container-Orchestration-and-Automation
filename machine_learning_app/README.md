@@ -72,6 +72,13 @@ http://localhost:5000
 ├── mushrooms.csv  # Dataset
 └── README.md
 ```
+![image](https://github.com/user-attachments/assets/bc6388a6-634a-4464-b55c-e5d120ecabae)
+
+![image](https://github.com/user-attachments/assets/ac0efc42-31d5-4e7a-bab1-1f35fd56dea9)
+
+![image](https://github.com/user-attachments/assets/cda67c71-feb3-49c8-8e08-47f480cc958c)
+
+![image](https://github.com/user-attachments/assets/56da6961-b6a6-419e-a8e9-09671e5c6fc8)
 
 ## Contributing
 
