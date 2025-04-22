@@ -71,6 +71,9 @@ sudo docker ps
 - Set up CI/CD pipeline for continuous deployment.
 
 ---
+Screenshots
+![image](https://github.com/user-attachments/assets/a6c0c48f-e5cc-468e-97b0-240601ccd258)
+![image](https://github.com/user-attachments/assets/399fc1af-dbcf-4b3c-8eb8-a7cca69094fa)
 
 *End of README*
 
