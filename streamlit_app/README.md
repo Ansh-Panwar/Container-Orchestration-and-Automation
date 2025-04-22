@@ -96,6 +96,9 @@ docker run -p 8501:8501 streamlit-app
 Go to 👉 **http://localhost:8501** 🌐
 
 ---
+![image](https://github.com/user-attachments/assets/90d0d185-742c-43ff-ad06-88228f38e9aa)
+
+![image](https://github.com/user-attachments/assets/ccf81653-9f10-4e83-813b-dde1c9d513d4)
 
 ## 🎯 Conclusion
 You now have a fully functional Streamlit environment running inside Docker! 🚀
