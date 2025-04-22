@@ -79,6 +79,9 @@ Open your browser and go to:
 ```
 http://localhost:8501
 ```
+![image](https://github.com/user-attachments/assets/afff0159-9deb-4b7e-8d31-89555db769ae)
+![image](https://github.com/user-attachments/assets/e1eb6152-4a4b-4639-9e98-96a023bd52a8)
+
 
 ## 🚢 Future Enhancements
 🔹 Deploy to a cloud service like **AWS, Google Cloud, or Heroku**.  
