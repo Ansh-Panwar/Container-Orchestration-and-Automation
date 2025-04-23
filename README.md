@@ -9,7 +9,7 @@ This repository contains a variety of projects, examples, and exercises focused 
 - [`.devcontainer`](./Container-Orchestration-and-Automation-main/.devcontainer)  
   Configuration for container-based development environments (e.g., VS Code Dev Containers).
 
-- [`Aiml ec2 deployment`](./Container-Orchestration-and-Automation-main/Aiml%20ec2%20deployment)  
+- [`Aiml ec2 deployment`](Aiml%20ec2%20deployment)  
   Example of deploying an AI/ML model on AWS EC2 using containers.
 
 - [`Bakery_Foundation`](./Container-Orchestration-and-Automation-main/Bakery_Foundation)  
