@@ -116,6 +116,16 @@ Open a browser and navigate to:
 You should see the list of passengers displayed in the app.
 
 ---
+![Screenshot from 2025-04-23 16-53-22](https://github.com/user-attachments/assets/4993df64-d1cb-431d-abb4-dcf6ebff6790)
+
+![Screenshot from 2025-04-23 16-53-50](https://github.com/user-attachments/assets/869affbf-1bee-4396-9cb6-19167de8a090)
+
+![Screenshot from 2025-04-23 16-54-35](https://github.com/user-attachments/assets/7b7c5c7b-a7a2-4935-ba74-55dc0c473ad5)
+
+![Screenshot from 2025-04-23 16-54-47](https://github.com/user-attachments/assets/ae3d7ddd-a682-4230-9ec3-a4192792620d)
+
+![image](https://github.com/user-attachments/assets/c05d198c-b1fa-4b9d-a2bd-0e4e0921dd61)
+
 
 ## 🎯 Summary
 ✅ PostgreSQL container stores passenger data.
