@@ -1,49 +1,34 @@
-# Container Orchestration and Automation
+# 📦 Container-Orchestration-and-Automation
 
-## Overview
-This repository contains various projects related to container orchestration, automation, and AI/ML deployment using Docker, Kubernetes, Streamlit, and cloud-based solutions.
+This repository contains a variety of projects, examples, and exercises focused on container orchestration, automation, CI/CD, and cloud-native tools. Below is a list of folders with links and short descriptions to help you navigate the repository.
 
-## Projects
+---
 
-### 1. Aiml EC2 Deployment
-This project focuses on deploying AI/ML models on AWS EC2 instances. It includes setting up an environment, containerizing models, and deploying them using cloud infrastructure.
+## 📁 Repository Structure
 
-### 2. Docker Networking and Connectivity
-A comprehensive guide on how Docker networking works. It includes different networking modes like bridge, host, and overlay, and practical implementations.
+- [`.devcontainer`](./Container-Orchestration-and-Automation-main/.devcontainer)  
+  Configuration for container-based development environments (e.g., VS Code Dev Containers).
 
-### 3. Docker Volumes
-This project explores persistent storage management in Docker using volumes. It demonstrates how to create, mount, and manage volumes for data persistence.
+- [`Aiml ec2 deployment`](./Container-Orchestration-and-Automation-main/Aiml%20ec2%20deployment)  
+  Example of deploying an AI/ML model on AWS EC2 using containers.
 
-### 4. Evidently AI
-A project that integrates Evidently AI for monitoring and evaluating machine learning models. It helps in tracking data drift and model performance over time.
+- [`Bakery_Foundation`](./Container-Orchestration-and-Automation-main/Bakery_Foundation)  
+  Possibly a base structure for a microservices-based bakery management project.
 
-### 5. Minikube with Docker on Linux
-A step-by-step guide to setting up Minikube on Linux using Docker as a driver. It includes Kubernetes deployment basics and workload management.
+- [`Docker Networking and Connectivity`](./Container-Orchestration-and-Automation-main/Docker%20Networking%20and%20Connectivity)  
+  Projects and examples focusing on Docker container networking.
 
-### 6. MySQL
-A database project that sets up a MySQL server, demonstrates CRUD operations, and integrates with applications using SQL queries.
+- [`Docker Volumes`](./Container-Orchestration-and-Automation-main/Docker%20Volumes)  
+  Demonstrations of how to use Docker volumes for persistent storage.
 
-### 7. Titanic Survival Predictor
-A machine learning model that predicts passenger survival on the Titanic. The project includes data preprocessing, model training, and deployment using Streamlit.
+- [`Docker-Bake`](./Container-Orchestration-and-Automation-main/Docker-Bake)  
+  Example setup using Docker Bake for building multiple Docker images in parallel.
 
-### 8. Hello World
-A simple "Hello World" project, likely a test setup for new tools or frameworks.
+- [`Evidently AI`](./Container-Orchestration-and-Automation-main/Evidently%20AI)  
+  Integration of [Evidently AI](https://www.evidentlyai.com/) for model monitoring.
 
-### 9. Machine Learning App
-A generic ML application that may include various models, data pipelines, and deployment techniques.
+- [`Jenkins-Orchestration`](./Container-Orchestration-and-Automation-main/Jenkins-Orchestration)  
+  CI/CD orchestration using Jenkins pipelines and automation scripts.
 
-### 10. SQL with Streamlit
-An interactive web application built with Streamlit that connects to an SQL database, allowing users to query and visualize data.
-
-### 11. Streamlit App
-A web-based application built using Streamlit. It serves as an example of deploying and running interactive web applications.
-
-## Getting Started
-To run any of the projects, ensure you have Docker and Python installed. Follow the specific instructions in each project's folder for setup and execution.
-
-## Contributing
-Contributions are welcome! Feel free to submit issues or pull requests to improve the projects.
-
-
-
-
+- [`Microservices Architecture using Docker Swarm`](./Container-Orchestration-and-Automation-main/Microservices%20Architecture%20using%20Docker%20Swarm)  
+  A practical setup for deploying and managing microservices with Docker Swarm.
